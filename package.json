@@ -1,5 +1,5 @@
 {
-	"name": "f1-points",
+	"name": "create-svelte-cloudflare",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -7,11 +7,15 @@
 		"build": "vite build",
 		"preview": "vite preview"
 	},
-	"devDependencies": {
+	"type": "module",
+	"dependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.0",
+		"@sveltejs/adapter-cloudflare": "^2.3.0",
+		"@sveltejs/kit": "^1.20.1",
+		"prettier": "^2.8.8",
+		"prettier-plugin-svelte": "^2.10.1",
+		"sass": "^1.62.1",
 		"svelte": "^3.54.0",
 		"vite": "^4.3.0"
-	},
-	"type": "module"
+	}
 }
