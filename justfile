@@ -1,3 +1,4 @@
+set dotenv-load
 dev: develop
 develop: install
   npm run dev
