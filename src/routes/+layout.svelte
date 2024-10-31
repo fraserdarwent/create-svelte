@@ -11,7 +11,6 @@
 </main>
 
 <style lang="scss">
-	// Reset
 	:global(*) {
 		margin: 0;
 	}

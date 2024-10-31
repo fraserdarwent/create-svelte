@@ -2,8 +2,8 @@ set dotenv-load
 run: develop
 dev: develop
 develop: install
-  npm run dev
+  pnpm run dev
 build: install
-  npm run build
+  pnpm run build
 install:
-  npm install
+  pnpm install
